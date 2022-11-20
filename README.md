@@ -39,4 +39,4 @@ This website may introduce and sell products that can prove to be useful when tr
 <h3>Media</h3>
 
 <h3>Acknowledgements</h3>
-<p>This website is inspired by <b><a href="https://eu.gymshark.com/">GymShark</a></b>, however, it is not solely focused on the sale of merchandise, but to provie educational purposes as well<p>
+<p>This website is inspired by <b><a href="https://eu.gymshark.com/">GymShark</a></b>, however, it is not solely focused on the sale of merchandise, but to provide educational purposes as well<p>
