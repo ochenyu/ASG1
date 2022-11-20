@@ -29,5 +29,14 @@ This website may introduce and sell products that can prove to be useful when tr
 
 </ul>
 
-<h2>Credits and aspirations</h2>
+<h2>Technologies used</h2>
+
+<h2>Testing</h2>
+
+<h2>Credits</h2>
+<h3>Content</h3>
+
+<h3>Media</h3>
+
+<h3>Acknowledgements</h3>
 <p>This website is inspired by <b><a href="https://eu.gymshark.com/">GymShark</a></b>, however, it is not solely focused on the sale of merchandise, but to provie educational purposes as well<p>
