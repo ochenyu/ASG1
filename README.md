@@ -40,5 +40,5 @@ This website may introduce and sell products that can prove to be useful when tr
 
 <h3>Acknowledgements</h3>
 <p>
-This website is inspired by <b><a href="https://eu.gymshark.com/">GymShark</a></b>, however, it is not solely focused on the sale of merchandise, but to provide educational purposes as well, similar to <b><a href="https://www.fitnessbravo.sg/classes-build/?utm_source=google&utm_medium=search&utm_campaign=generic&utm_term=islandwide&gclid=Cj0KCQiAveebBhD_ARIsAFaAvrHj-gTDlqEEQQTDOHhwx-bvTu_zpo-Hbp_YqA1Kizv2LHgNEnagzqMaAiyOEALw_wcB">FitnessBravo</a></b>
+This website is inspired by <b><a href="https://eu.gymshark.com/">GymShark</a></b>, however, it is not solely focused on the sale of merchandise, but to provide educational purposes as well, similar to <b><a href="https://www.fitnessbravo.sg/classes-build/?utm_source=google&utm_medium=search&utm_campaign=generic&utm_term=islandwide&gclid=Cj0KCQiAveebBhD_ARIsAFaAvrHj-gTDlqEEQQTDOHhwx-bvTu_zpo-Hbp_YqA1Kizv2LHgNEnagzqMaAiyOEALw_wcB">FitnessBravo</a></b>.
 <p>
