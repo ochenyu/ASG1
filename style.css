@@ -1,6 +1,18 @@
+
 h1 {
     background-color: black;
     color: white;
+}
+
+.logo {
+    height : 125px;
+    width : 125px
+}
+
+.header {
+    font-size: 50px;
+    text-decoration: bold;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .navbar {
@@ -16,7 +28,7 @@ h1 {
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -25,17 +37,37 @@ h1 {
     list-style: none;
     display: inline-block;
     margin: 0 40px;
-    font-size: 20px
+    font-size: 20px;
+    position: relative;
 }
 
 .navbar ul li a { 
     text-decoration: none;
     text-transform: uppercase;
     color: white;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.header {
-    font-size: 40px;
-    text-decoration: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: whitesmoke;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    text-align: center;
+    color: white;
 }
