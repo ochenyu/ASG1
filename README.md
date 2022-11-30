@@ -16,16 +16,15 @@ This website may introduce and sell products that can prove to be useful when tr
 
 <h2>Potential features to include</h2>
   <ul>
-  <h3>Tips and advices</h3>
-  <li>Culture when going gym</li>
-  <li>Diet</li>
-  <li>Exercises with different purposes</li>
-  <li>Workout Programmes</li>
+  <h3>Quotes</h3>
+  <li>Mental Welfare</li>
+  <li>Encourage Discipline</li>
+  <li>Encourage Character</li>
 
   <h3>Products for sale</h3>
-  <li>Gym equipment (Lifting belts, etc.)</li>
-  <li>Supplements</li>
-  <li>Clothing (Joggers, shirts, etc.)</li>
+  <li>Shirts and shorts</li>
+  <li>Hoodies</li>
+  <li>Accessories</li>
 
 </ul>
 
