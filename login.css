@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+}
+
+header img {
+    height: 120px;
+    width: 120px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(background.jpg);
+}
+
+.container {
+    width: 370px;
+    background: linear-gradient(black,rgba(0,0,0,0.6));
+    padding: 40px 30px 50px 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.container header{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.container form {
+    margin: 40px 0;
+}
+
+form .field{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form .field .input-area {
+    position: relative;
+}
+
+form input {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0 45px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-bottom-width: 2px;
+    color: white;
+    background-color: black;
+}
+
+form input::placeholder{
+    font-size: 14px;
+    color: gray;
+
+}
+
+form .field i {
+    position: absolute;
+    top: 50%;
+    font-size: 18px;
+    pointer-events: none;
+    transform: translateY(-44.5%);
+}
+
+form .field .icon {
+    left: 15px;
+}
+
+form .field .error-icon{
+    right: 15px;
+}
+
+form .field .error-txt {
+    color: red;
+    margin-top : 7px;
+    text-align: left;
+}
+
+form .field .error {
+    display: none;
+}
+
+form .pass-link {
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 30px
+}
+
+.container a {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+form input[type = "submit"] {
+    border: 1px solid white;
+    background: black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+form input[type = "submit"]:hover {
+    background-color: gray;
+    transform: scale(0.9)
+}
+
