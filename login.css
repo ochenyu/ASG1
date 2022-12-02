@@ -39,7 +39,26 @@ body {
 
 form .field{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+}
+
+form .field.shake {
+    animation: shake 0.3s ease-in-out;
+}
+
+
+@keyframes shake {
+    0%, 100% {
+        margin-left: 0;
+    }
+
+    20%, 80% {
+        margin-left: -12px;
+    }
+
+    40%, 60% {
+        margin-left: 12px;
+    }
 }
 
 form .field .input-area {
@@ -58,10 +77,13 @@ form input {
     background-color: black;
 }
 
+form .field.error input {
+    border-color: red;
+}
+
 form input::placeholder{
     font-size: 14px;
     color: gray;
-
 }
 
 form .field i {
@@ -88,6 +110,10 @@ form .field .error-txt {
 
 form .field .error {
     display: none;
+}
+
+form .field.error .error {
+    display: block;
 }
 
 form .pass-link {
@@ -117,3 +143,17 @@ form input[type = "submit"]:hover {
     transform: scale(0.9)
 }
 
+input.showPass {
+    height: 12px;
+    width: 12px;
+    margin-top: 3.5px;
+    transform: translateX(-44.5%);
+}
+
+.chkBox {
+    position: relative;
+    display: flex;
+    font-size: 14px;
+    margin-top: 7px;
+    transform: translateX(2.5%); 
+}
