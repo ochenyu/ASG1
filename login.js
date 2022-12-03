@@ -59,7 +59,7 @@ pInput.onkeyup = () => {
 
 // login successful
 if (!eField.classList.contains("error") && !pField.classList.contains("error")) {
-alert("Login successful")
+alert("Login successful. You may go back to Homepage.")
 form.reset();
 }
 }

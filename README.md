@@ -26,6 +26,8 @@ This website may introduce and sell products that can prove to be useful when tr
   <li>Hoodies</li>
   <li>Accessories</li>
 
+  <h3>Login to recei
+
 </ul>
 
 <h2>Technologies used</h2>
@@ -33,6 +35,7 @@ This website may introduce and sell products that can prove to be useful when tr
 <h2>Testing</h2>
 
 <h3>Credits</h3>
+
 <h3>Content</h3>
 
 <h3>Media</h3>
