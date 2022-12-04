@@ -17,7 +17,7 @@ This website may introduce and sell products that can prove to be useful when tr
 It also provides quotes that can encourage people to put in more effort into exercising, or work ethics in general.
 
 ### Files
-[My WireFrame](ID_S10243071_ONGCHENYU_Assg1_wireframe.xd)
+<a href= "ID_S10243071_ONGCHENYU_Assg1_wireframe.xd" >Wireframe</a>
 
 ## Potential features to include
 
