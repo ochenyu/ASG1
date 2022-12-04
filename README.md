@@ -2,45 +2,84 @@
 
 <h1>Idea for My Website</h1>
 
-<h2>External User's goal</h2>
-<p>
-This is intended to be an educational website for groups of people like health enthusiasts.
-People who are workout/go to the gym can refer to this website to make their experience more enjoyable/easy.
-There will be essential information like tips and tricks when working out.
-</p>
 
-<h2>Site Owner's goal</h2>
-<p>
-This website may introduce and sell products that can prove to be useful when trying to workout, or to just lead a healthy lifestyle.
-<p>
+## Design Process
 
-<h2>Potential features to include</h2>
-  <ul>
-  <h3>Quotes</h3>
-  <li>Mental Welfare</li>
-  <li>Encourage Discipline</li>
-  <li>Encourage Character</li>
 
-  <h3>Products for sale</h3>
-  <li>Shirts and shorts</li>
-  <li>Hoodies</li>
-  <li>Accessories</li>
+### External User's goal
+This is intended for an audience who exercises/looking to start exercising.
+People who are workout can refer to this website to make their experience more enjoyable/easy.
+There will be essential 
 
-  <h3>Login to recei
 
-</ul>
+### Site Owner's goal 
+This website may introduce and sell products that can prove to be useful when trying to workout.
+It also provides quotes that can encourage people to put in more effort into exercising, or work ethics in general.
 
-<h2>Technologies used</h2>
+### Files
+[My WireFrame](ID_S10243071_ONGCHENYU_Assg1_wireframe.xd)
 
-<h2>Testing</h2>
+## Potential features to include
 
-<h3>Credits</h3>
+- Homepage
+  - Statistics for the company, showing that it is popular/trustworthy
+  - Social media buttons to link it to their social media
+  (Note that these are not real as POWERHOUSE is not a real company, and that it is something that I came up with)
+  - Popular products on sale
 
-<h3>Content</h3>
+- Powerquotes
+  - Video + Quotes, for users to glance through several quotes for them to read and absorb. THis gives the feel that the company values work ethic alot. It will be in a form of a slideshow.
+  - Mental Welfare
+  - Encourage Discipline
 
-<h3>Media</h3>
+- Powertools
+  - Shirts
+  - Shorts
+  - Accessories
+  Merchandise that mainly consists of sportswear
 
-<h3>Acknowledgements</h3>
-<p>
-This website is inspired by <b><a href="https://eu.gymshark.com/">GymShark</a></b>, however, it is not solely focused on the sale of merchandise, but to provide educational purposes as well, similar to <b><a href="https://www.fitnessbravo.sg/classes-build/?utm_source=google&utm_medium=search&utm_campaign=generic&utm_term=islandwide&gclid=Cj0KCQiAveebBhD_ARIsAFaAvrHj-gTDlqEEQQTDOHhwx-bvTu_zpo-Hbp_YqA1Kizv2LHgNEnagzqMaAiyOEALw_wcB">FitnessBravo</a></b>, <b><a href="https://mentality.com/">MENTALITY</a></b>
-<p>
+- Login form
+  - Receive membership privileges such as discount on merchandise upon completing the form
+  - Validation (i.e. Valid Email?)
+
+
+## Technologies used
+
+- [Adobe XD](https://www.adobe.com/products/xd/learn/get-started.html)
+  - Used for wireframing: To plan for the structure of the website
+
+- [Keyframes](https://css-tricks.com/snippets/css/shake-css-keyframe-animation/)
+  - The project uses keyframes to display animation when a field is not entered in the form. (In my project; shake)
+
+- [Email validation](https://www.w3resource.com/javascript/form/email-validation.php")
+  - The project uses a format that can be used to confirm the correct format for the email.</li>
+
+- [Ionicons](https://ionic.io/ionicons)
+  - The project uses a database where we can conveniently add any icon of our choice to our website, for decorative purposes.
+
+
+## Testing
+1. Shopping cart:
+  1. Click on the "Add to cart" button, adding the products into a local storage
+  2. Adjust the number of quantities for that particular addition
+  3. The product's quantity should be registered in the shopping cart
+  4. Clicking on the cart, it should show the various items that have been added to the cart and its respective quantity
+  5. In the shopping cart, the user should be able to adjust the quantities of the products as well, with a '+' and '-' button.
+  6. The cart should then show the correct total price of the products that have been added to the cart
+  7. Clicking on the place order button, it should prompt different payment methods and then send the order to the "Headquarters"
+
+
+## Credits
+
+### Content
+
+- The quotes from 'POWERQUOTES' taken from [MENTALITY]()
+
+### Media
+- The photos of the products were taken from [Gymshark](https://eu.gymshark.com/) and [MENTALITY](https://mentality.com/). (Note: the reviews (i.e number of stars) is not based on actual reviews)
+- The background picture was taken from [here](https://www.theregnant.in/m/experience/facilities.html).
+The logo was taken from [here](static.vecteezy.com).
+
+### Acknowledgements
+- This website is inspired by [Gymshark](https://eu.gymshark.com/), however, unlike Gymshark, it is not solely focused on the sale of merchandise, but to provide educational purposes as well, similar to  [Fitnessbravo](https://www.fitnessbravo.sg/), [MENTALITY](https://mentality.com/).
+- Various codes are referenced from [W3Schools](https://www.w3schools.com/).
