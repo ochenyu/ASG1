@@ -17,7 +17,7 @@ This website may introduce and sell products that can prove to be useful when tr
 It also provides quotes that can encourage people to put in more effort into exercising, or work ethics in general.
 
 ### Files
-<a href= "ID_S10243071_ONGCHENYU_Assg1_wireframe.xd" >Wireframe</a>
+[Wireframe](ID_S10243071_ONGCHENYU_Assg1_wireframe.xd)
 
 ## Potential features to include
 
@@ -50,6 +50,9 @@ It also provides quotes that can encourage people to put in more effort into exe
 
 - [Keyframes](https://css-tricks.com/snippets/css/shake-css-keyframe-animation/)
   - The project uses keyframes to display animation when a field is not entered in the form. (In my project; shake)
+
+- [Keyframes-webkit](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+  - The animation shorthand is used to let the images slide; as a slideshow.
 
 - [Email validation](https://www.w3resource.com/javascript/form/email-validation.php")
   - The project uses a format that can be used to confirm the correct format for the email.</li>

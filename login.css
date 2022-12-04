@@ -2,28 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen', sans-serif;                  
     color: white;
 }
 
 header img {
-    height: 120px;
-    width: 120px;
-}
+    height: 120px;                                                          
+    width: 120px;                           /* to display the logo */
+} 
 
 body {
     display: flex;
-    justify-content: center;
+    justify-content: center;                /* adjusting position of form*/
     align-items: center;
-    min-height: 100vh;
+    min-height: 100vh;                      /* adjusting size of background */
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(background.jpg);
 }
 
-.container {
+.container {                            /* container for content of form */
     width: 370px;
     background: linear-gradient(black,rgba(0,0,0,0.6));
     padding: 40px 30px 50px 30px;
-    border-radius: 10px;
+    border-radius: 10px;                /* styling the box */
     border: 2px solid white;
     text-align: center;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .container form {
-    margin: 40px 0;
+    margin: 40px 0;                         
 }
 
 form .field{
@@ -43,19 +43,19 @@ form .field{
 }
 
 form .field.shake {
-    animation: shake 0.3s ease-in-out;
+    animation: shake 0.3s ease-in-out;   
 }
 
 
-@keyframes shake {
+@keyframes shake {        
     0%, 100% {
-        margin-left: 0;
+        margin-left: 0;   
     }
 
     20%, 80% {
-        margin-left: -12px;
+        margin-left: -12px;       /* to control the amount of pixels it moves when shaking */
     }
-
+                
     40%, 60% {
         margin-left: 12px;
     }
@@ -78,12 +78,12 @@ form input {
 }
 
 form .field.error input {
-    border-color: red;
+    border-color: red;          /* border turns red when there is an error */
 }
 
 form input::placeholder{
     font-size: 14px;
-    color: gray;
+    color: gray;                 /* styling fields */
 }
 
 form .field i {
@@ -98,7 +98,7 @@ form .field .icon {
     left: 15px;
 }
 
-form .field .error-icon{
+form .field .error-icon{            /* to adjust position of icons */
     right: 15px;
 }
 
@@ -109,7 +109,7 @@ form .field .error-txt {
 }
 
 form .field .error {
-    display: none;
+    display: none;                                  /* hide the error prompt */
 }
 
 form .field.error .error {
@@ -118,13 +118,13 @@ form .field.error .error {
 
 form .pass-link {
     text-align: left;
-    margin-top: -10px;
+    margin-top: -10px;              
     margin-bottom: 30px
 }
 
 .container a {
     color: lightskyblue;
-    text-decoration: none;
+    text-decoration: none;              /* forgot password and join us */
 }
 
 .container a:hover {
@@ -135,7 +135,7 @@ form input[type = "submit"] {
     border: 1px solid white;
     background: black;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.4s;                  
 }
 
 form input[type = "submit"]:hover {
@@ -146,7 +146,7 @@ form input[type = "submit"]:hover {
 input.showPass {
     height: 12px;
     width: 12px;
-    margin-top: 3.5px;
+    margin-top: 3.5px;                  /* checkbox to toggle to hide/show password */
     transform: translateX(-44.5%);
 }
 

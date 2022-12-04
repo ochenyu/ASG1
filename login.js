@@ -7,13 +7,13 @@ pInput = pField.querySelector("input");
 
 // when blank
 form.onsubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault();                           /* while clicking on LOGIN */
     
     if (eInput.value == "") {
-        eField.classList.add("shake", "error");
+        eField.classList.add("shake", "error");   /* if field is blank, shake. */
     }
     else {
-        validateEmail();
+        validateEmail();                          /* else, show validation prompt */
     }
 
     if(pInput.value == "") {
@@ -31,13 +31,13 @@ eInput.onkeyup = () => {
 }   
 
 function validateEmail() {
-    let eformat = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+    let eformat = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;      /* standard format for email */
     if (!eInput.value.match(eformat)) {
-        eField.classList.add("error");
+        eField.classList.add("error");              /* if it does not match, send error */
         let errorTxt = eField.querySelector(".error-txt");
         if (eInput.value != "") {
-            errorTxt.innerText = "Invalid email address"
-        }
+            errorTxt.innerText = "Invalid email address"     /* if not empty, show invalid. else, show please fil in.. */
+        }           
         else {
             errorTxt.innerText = "Please fill in your email address"
         }
@@ -50,7 +50,7 @@ function validateEmail() {
 pInput.onkeyup = () => {
     
     if (pInput.value == "") {
-        pField.classList.add("error");
+        pField.classList.add("error");  /* triggers when a key is pressed */
     }
     else {
         pField.classList.remove("error");
@@ -60,7 +60,7 @@ pInput.onkeyup = () => {
 // login successful
 if (!eField.classList.contains("error") && !pField.classList.contains("error")) {
 alert("Login successful. You may go back to Homepage.")
-form.reset();
+form.reset();           /* clear fields upon success */
 }
 }
 
@@ -70,7 +70,7 @@ function showPassword() {
     var x = document.getElementById("myInput");
     if (x.type === "password") {
       x.type = "text";
-    } else {
+    } else {                                /* show/hide password */
       x.type = "password";
     }
   }
